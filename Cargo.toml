@@ -3,6 +3,7 @@ description = "simulate mouse click via keyboard"
 edition = "2021"
 name = "SClick"
 version = "0.1.0"
+authors = ["hotdog"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -17,6 +18,7 @@ tauri-hotkey = "0.1.2"
 
 [package.metadata.bundle]
 copyright = "MIT"
+authors = ["hotdog"]
 icon = [
   "src/icons/32x32.png",
   "src/icons/128x128.png",
