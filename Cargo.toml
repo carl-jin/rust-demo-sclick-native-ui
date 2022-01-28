@@ -1,0 +1,36 @@
+[package]
+description = "simulate mouse click via keyboard"
+edition = "2021"
+name = "SClick"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+confy = "0.4.0"
+iced = "0.3"
+iced_native = "0.4.0"
+mouse-rs = "0.4"
+serde = "1.0.136"
+serde_derive = "1.0.136"
+tauri-hotkey = "0.1.2"
+
+[package.metadata.bundle]
+copyright = "MIT"
+icon = [
+  "src/icons/32x32.png",
+  "src/icons/128x128.png",
+  "src/icons/128x128@2x.png",
+  "src/icons/icon.icns",
+  "src/icons/icon.ico",
+]
+identifier = "com.guid.google.com"
+long_description = "simulate mouse click via keyboard"
+name = "SClick"
+short_description = "simulate mouse click via keyboard"
+version = "1.0.0"
+
+[profile.release]
+# codegen-units = 1
+# opt-level = "z"
+# lto = true
